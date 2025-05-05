@@ -739,7 +739,6 @@ This is a categorical variable, so you do not plot a box plot for it. A good plo
 
 ```python
 # Pie chart
-### YOUR CODE HERE ###
 data = df['device'].value_counts()
 sns.set_style("whitegrid")
 plt.figure(figsize=(6,6))
@@ -767,7 +766,6 @@ This is also a categorical variable, and as such would not be plotted as a box p
 
 ```python
 # Pie chart
-### YOUR CODE HERE ###
 data = df['label'].value_counts()
 sns.set_style("whitegrid")
 plt.figure(figsize=(6,6))
@@ -796,7 +794,6 @@ Plot a histogram that, for each day, has a bar representing the counts of `drivi
 
 ```python
 # Histogram
-### YOUR CODE HERE ###
 plt.figure(figsize=(12,4))
 label=['driving days', 'activity days']
 plt.hist([df['driving_days'], df['activity_days']],
@@ -825,7 +822,6 @@ Confirm the maximum number of days for each variable&mdash;`driving_days` and `a
 
 
 ```python
-### YOUR CODE HERE ###
 print(df['driving_days'].max())
 print(df['activity_days'].max())
 ```
@@ -1240,5 +1236,9 @@ Now that you've explored and visualized your data, the next step is to share you
 > *No. Users of all tenures from brand new to \~10 years were relatively evenly represented in the data. This is borne out by the histogram for `n_days_after_onboarding`, which reveals a uniform distribution for this variable.*
 
 
+##### License 
+
+The dataset was created in partnership with Waze for the Google Advanced Data Analytics Professional Certicate Portfolio Project.
+The original dataset’s provenance can be traced back to the Professional Certificate itself on Coursera.
 
 ### **The End**
