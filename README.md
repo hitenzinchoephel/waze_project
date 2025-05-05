@@ -430,7 +430,7 @@ plt.show()
 
 
     
-![png](output_15_0.png)
+![png](/img/output_15_0.png)
     
 
 
@@ -490,7 +490,7 @@ boxplotter('drives',"Box plot for drives")
 
 
     
-![png](output_21_0.png)
+![png](/img/output_21_0.png)
     
 
 
@@ -502,7 +502,7 @@ plot_histogram('drives')
 
 
     
-![png](output_22_0.png)
+![png](/img/output_22_0.png)
     
 
 
@@ -520,7 +520,7 @@ boxplotter('total_sessions','Total Session Box Plot')
 
 
     
-![png](output_25_0.png)
+![png](/img/output_25_0.png)
     
 
 
@@ -532,7 +532,7 @@ plot_histogram('total_sessions')
 
 
     
-![png](output_26_0.png)
+![png](/img/output_26_0.png)
     
 
 
@@ -563,7 +563,7 @@ boxplotter('n_days_after_onboarding','No of days since a user signed up')
 
 
     
-![png](output_30_0.png)
+![png](/img/output_30_0.png)
     
 
 
@@ -575,7 +575,7 @@ plot_histogram('n_days_after_onboarding')
 
 
     
-![png](output_31_0.png)
+![png](/img/output_31_0.png)
     
 
 
@@ -595,7 +595,7 @@ boxplotter('driven_km_drives','Total Km drivens during the month')
 
 
     
-![png](output_34_0.png)
+![png](/img/output_34_0.png)
     
 
 
@@ -607,7 +607,7 @@ plot_histogram('driven_km_drives')
 
 
     
-![png](output_35_0.png)
+![png](/img/output_35_0.png)
     
 
 
@@ -639,7 +639,7 @@ boxplotter('duration_minutes_drives','Total duration driven in mins in month')
 
 
     
-![png](output_39_0.png)
+![png](/img/output_39_0.png)
     
 
 
@@ -651,7 +651,7 @@ plot_histogram('duration_minutes_drives')
 
 
     
-![png](output_40_0.png)
+![png](/img/output_40_0.png)
     
 
 
@@ -678,7 +678,7 @@ boxplotter('activity_days','No of days user open app a month')
 
 
     
-![png](output_44_0.png)
+![png](/img/output_44_0.png)
     
 
 
@@ -690,7 +690,7 @@ plot_histogram('activity_days')
 
 
     
-![png](output_45_0.png)
+![png](/img/output_45_0.png)
     
 
 
@@ -710,7 +710,7 @@ boxplotter('driving_days','No of days user drive in month >1km')
 
 
     
-![png](output_48_0.png)
+![png](/img/output_48_0.png)
     
 
 
@@ -722,7 +722,7 @@ plot_histogram('driving_days')
 
 
     
-![png](output_49_0.png)
+![png](/img/output_49_0.png)
     
 
 
@@ -752,7 +752,7 @@ plt.show()
 
 
     
-![png](output_52_0.png)
+![png](/img/output_52_0.png)
     
 
 
@@ -781,7 +781,7 @@ plt.show()
 
 
     
-![png](output_55_0.png)
+![png](/img/output_55_0.png)
     
 
 
@@ -811,7 +811,7 @@ plt.title('driving_days vs. activity_days');
 
 
     
-![png](output_58_0.png)
+![png](/img/output_58_0.png)
     
 
 
@@ -848,7 +848,7 @@ plt.show()
 
 
     
-![png](output_62_0.png)
+![png](/img/output_62_0.png)
     
 
 
@@ -875,7 +875,7 @@ plt.show()
 
 
     
-![png](output_65_0.png)
+![png](/img/output_65_0.png)
     
 
 
@@ -996,7 +996,7 @@ plt.show()
 
 
     
-![png](output_71_0.png)
+![png](/img/output_71_0.png)
     
 
 
@@ -1018,7 +1018,7 @@ plt.show()
 
 
     
-![png](output_74_0.png)
+![png](/img/output_74_0.png)
     
 
 
@@ -1127,7 +1127,7 @@ plot_histogram('percent_sessions_in_last_month')
 
 
     
-![png](output_82_0.png)
+![png](/img/output_82_0.png)
     
 
 
@@ -1160,7 +1160,7 @@ plt.show()
 
 
     
-![png](output_86_0.png)
+![png](/img/output_86_0.png)
     
 
 
@@ -1178,7 +1178,7 @@ To practice this technique, write a function that calculates the 95th percentile
 
 
 ```python
-### YOUR CODE HERE ###
+
 def 
 ```
 
@@ -1191,14 +1191,14 @@ Next, apply that function to the following columns:
 
 
 ```python
-### YOUR CODE HERE ###
+
 ```
 
 Call `describe()` to see if your change worked.
 
 
 ```python
-### YOUR CODE HERE ###
+
 ```
 
 #### **Conclusion**
