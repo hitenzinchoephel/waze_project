@@ -1162,41 +1162,6 @@ plt.show()
 
 The number of days since onboarding for users with 40% or more of their total sessions occurring in just the last month is a uniform distribution. This is very strange. It's worth asking Waze why so many long-time users suddenly used the app so much in the last month.
 
-### **Handling outliers**
-
-The box plots from the previous section indicated that many of these variables have outliers. These outliers do not seem to be data entry errors; they are present because of the right-skewed distributions.
-
-Depending on what you'll be doing with this data, it may be useful to impute outlying data with more reasonable values. One way of performing this imputation is to set a threshold based on a percentile of the distribution.
-
-To practice this technique, write a function that calculates the 95th percentile of a given column, then imputes values > the 95th percentile with the value at the 95th percentile.  such as the 95th percentile of the distribution.
-
-
-
-
-```python
-
-def 
-```
-
-Next, apply that function to the following columns:
-* `sessions`
-* `drives`
-* `total_sessions`
-* `driven_km_drives`
-* `duration_minutes_drives`
-
-
-```python
-
-```
-
-Call `describe()` to see if your change worked.
-
-
-```python
-
-```
-
 #### **Conclusion**
 
 Analysis revealed that the overall churn rate is \~17%, and that this rate is consistent between iPhone users and Android users.
