@@ -64,8 +64,6 @@ df.head()
 ```
 
 
-
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -413,7 +411,7 @@ plt.show()
 
 
     
-![png](output_14_0.png)
+![png](/img/output_14_0.png)
     
 
 
